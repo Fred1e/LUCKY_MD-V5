@@ -57,7 +57,7 @@
       max-width: 300px;
       width: 100%;
     }
-
+    
     .input-container input {
       border-radius: 0.8rem 0 0 0.8rem;
       background: #e8e8e8;
@@ -69,7 +69,7 @@
       border-left: 2px solid #ecf2f8;
       color: #000000;
       transition: all 0.2s ease-in-out;
-    }
+      }
 
     .input-container input:focus {
       border-left: 2px solid #ecf1f6;
@@ -141,9 +141,9 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">LUCKY_MD 𝐕5.𝟎.𝟎 FREDIE</h3>
+            <h3 class="centered-text">LUCKY MD PAIRING CODE</h3>
             <br>
-            <h6>𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 FREDIE TECH.</h6>
+            <h6>Made By Fredie Tech.</h6>
             <h6>1.Enter your Whatsapp Number with a Country Code. 2.Then submit. 3.Copy the codes below and paste it on the link device above.</h6>
             <div class="input-container">
               <input placeholder="255620814...or 255764182..." type="number" id="number" placeholder="1.Enter Whatsapp Number with Country Code. 2.Then submit. 3.Copy the codes below. 4.Tap the notification above paste the codes there." name="">
@@ -171,7 +171,7 @@
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('CODE: ', ''));
       obj.innerText = "COPIED";
-      obj.style = "color:yellow;font-weight:bold";
+      obj.style = "color:blue;font-weight:bold";
       obj.size = "5";
       setTimeout(() => {
         obj.innerText = text;
@@ -203,11 +203,11 @@
         });
         c.type = "text";
         c.value = "+" + bb;
-        c.style = "color:green;font-size:20px";
+        c.style = "color:black;font-size:20px";
         a.innerHTML = '<a style="color:white;font-weight:bold">Please Wait...</a><br><br>';
         let { data } = await axios(`/code?number=${Maher_Zubair}`);
         let code = data.code || "Service Unavailable";
-        a.innerHTML = '<font id="copy" onclick="Copy()" style="color:green;font-weight:bold" size="5">YOUR CODE: <span style="color:red;font-weight:bold">' + code + '</span></font><br><br><br>';
+        a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">YOUR CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
       }
     });
   </script>
