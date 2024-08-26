@@ -57,9 +57,9 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*LUCKY MD V5 PAIRING CODE CONNECTED*
+*LUCKY MD PAIRING CODE CONNECTED*
 
-> You have completed the first step of Deploying *LUCKY_MD V5*
+> You have completed the first step of Deploying *LUCKY_MD*
 > Copy the above session Id and deploy your bot.
 > ASK DEVELOPER LUCKY FOR BOT DEPLOYMENT ✅ 
 > Meanwhile you must follow the 4 steps. 
