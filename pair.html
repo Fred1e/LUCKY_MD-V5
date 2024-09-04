@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pair Code</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
@@ -11,7 +12,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: black
+      background: black;
       font-family: Arial, sans-serif;
     }
 
@@ -27,7 +28,7 @@
       padding: 20px;
       position: relative;
       text-align: center;
-      background-color: rgb(0,0,0);
+      background-image: rgb(`https://telegra.ph/file/12bf41e0a5332f7accd0f.jpg`);
       border-radius: 10px;
       transform: perspective(1000px) rotateY(0deg);
       box-shadow: 0 0 20px rgba(250, 249, 249, 0.7);
@@ -57,7 +58,7 @@
       max-width: 300px;
       width: 100%;
     }
-    
+
     .input-container input {
       border-radius: 0.8rem 0 0 0.8rem;
       background: #e8e8e8;
@@ -69,7 +70,7 @@
       border-left: 2px solid #ecf2f8;
       color: #000000;
       transition: all 0.2s ease-in-out;
-      }
+    }
 
     .input-container input:focus {
       border-left: 2px solid #ecf1f6;
@@ -143,14 +144,14 @@
           <p>
             <h3 class="centered-text">LUCKY MD PAIRING CODE</h3>
             <br>
-            <h6>Made By Fredie Tech.</h6>
-            <h6>1.Enter your Whatsapp Number with a Country Code. 2.Then submit. 3.Copy the codes below and paste it on the link device above.</h6>
+            <h6>Made By Fredie tech♻️🤷.</h6>
+            <h6>Enter Your Number with Country Code.</h6>
             <div class="input-container">
-              <input placeholder="255620814...or 255764182..." type="number" id="number" placeholder="1.Enter Whatsapp Number with Country Code. 2.Then submit. 3.Copy the codes below. 4.Tap the notification above paste the codes there." name="">
+              <input placeholder="255620814xxx" type="number" id="number" placeholder="Enter your Phone Pumber with Cuntry Code" name="">
               <button id="submit">Submit</button>
             </div>
             
-            <a id="waiting-message" class="centered-text" style="display: none;">Please Wait...</a>
+            <a id="waiting-message" class="centered-text" style="display: none;">Please wait a while</a>
             <br>
             <br>
             <main id="pair"></main>
@@ -183,14 +184,14 @@
     b.addEventListener("click", async (e) => {
       e.preventDefault();
       if (!c.value) {
-        a.innerHTML = '<a style="color:white;font-weight:bold">Enter your WhatsApp number with a country code</a><br><br>';
+        a.innerHTML = '<a style="color:white;font-weight:bold">Enter your WhatsApp number with Country Code</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-        a.innerHTML = '<a style="color:red;font-weight:bold">Invalid number</a><br><br>';
+        a.innerHTML = '<a style="color:red;font-weight:bold">Invalid Number</a><br><br>';
       } else {
-        const Maher_Zubair = c.value.replace(/[^0-9]/g, "");
+        const Fredie_Tech = c.value.replace(/[^0-9]/g, "");
         let bb = "";
         let bbc = "";
-        const cc = Maher_Zubair.split('');
+        const cc = Fredie_Tech.split('');
         cc.map(a => {
           bbc += a;
           if (bbc.length == 3) {
@@ -205,9 +206,9 @@
         c.value = "+" + bb;
         c.style = "color:black;font-size:20px";
         a.innerHTML = '<a style="color:white;font-weight:bold">Please Wait...</a><br><br>';
-        let { data } = await axios(`/code?number=${Maher_Zubair}`);
+        let { data } = await axios(`/code?number=${Fredie_Tech}`);
         let code = data.code || "Service Unavailable";
-        a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">YOUR CODE: <span style="color:brown;font-weight:bold">' + code + '</span></font><br><br><br>';
+        a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
       }
     });
   </script>
