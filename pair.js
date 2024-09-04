@@ -68,25 +68,29 @@ router.get('/', async (req, res) => {
 
 > 1st STEP
 *TAP THE LINK BELOW AND FOLLOW THE CHANNEL* 
-𓄂 *_https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f_*
+𓄂 https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
 
 > 2nd STEP
 *YOU MUST JOIN OUR GROUP FOR UPDATES ON THIS BOT*
-𓄂 *_https://chat.whatsapp.com/Iu3UYEx1lE6IsHVRU7XKvp_*
+𓄂 https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9
 
 > 3rd STEP
 *FORK AND STAR 🌟 THE REPO FOR COURAGE*
-𓄂 *_https://github.com/Fred1e/lucky_md_*
+𓄂 https://github.com/Fred1e/lucky_md
 
-> 4th STEP 
+> 4th STEP
+*JOIN TELEGRAM GROUP CHAT*
+𓄂 https://t.me/+u3zlb5y6OfxhOTdk
+
+> 5th STEP 
 *VISIT FOR TUTORIALS IF YOU DON'T KNOW HOW TO DEPLOY*
-𓄂 *_https://www.youtube.com/@freeonlinetvT1_*
+𓄂 https://www.youtube.com/@freeonlinetvT1
 
-*DEVELOPER1: FREDIE TECH*
-𓄂 *_https://wa.link/4d9cpj_*
+*DEVELOPER1: Telegram*
+𓄂 https://t.me/freditech
 
 *DEVELOPER2:FREDIE_TECH*
-𓄂 *_https://wa.me/255620814108_*
+𓄂 https://wa.me/255620814108
 > Dm ME ☝️ FOR WHATSAPP BOT DEPLOYMENT 🔥 🔥 
 
 > ✅✅ 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 BY FREDIE ✅✅`
